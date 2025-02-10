@@ -1,0 +1,17 @@
+pgmEcho.c
+The main module for the program which will handle the command line arguments, and call other functions to read and write the image files.
+
+
+HEADER pgmError.h
+A header file which will define error codes and messages which can be used throughout the program to output error messages to the console, and provide useful error codes on failure.
+HEADER pgmImage.h
+A header file which will define a struct for image file storage.
+
+
+pgmRead.c, pgmRead.h
+A module which will read in an image file, handling errors if needed and adding values to an image struct to be used when writing.
+pgmWrite.c, pgmWrite.h
+A module which will write an image to a file, providing a success exit code on completion.
+
+!! pgmRead and pgmWrite may be combined into one pgmIO file for better modularity.
+    pgmIO.c, pgmIO.h

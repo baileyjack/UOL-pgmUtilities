@@ -1,0 +1,19 @@
+// Jack Bailey
+// 201509352
+
+Compile Test
+
+Test Set A: Error Messages:
+    Does each program output the correct error messages and return the correct values when a specific error occurs?
+
+No-Argument Messages: Do they match?
+Usage: ./pgmEcho inputImage.pgm outputImage.pgm
+Usage: ./pgmComp inputImage.pgm inputImage.pgm
+Usage: ./pgma2b inputImage.pgm outputImage.pgm
+Usage: ./pgmb2a inputImage.pgm outputImage.pgm
+Usage: ./pgmReduce inputImage.pgm reduction_factor outputImage.pgm
+
+ECHOED, IDENTICAL, DIFFERENT, CONVERTED, REDUCED - Do the programs output these messages on success.
+
+Use our own pgmComp file to compare the similarity of two files, ascii, binary, or both.
+
